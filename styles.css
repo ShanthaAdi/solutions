@@ -1,0 +1,466 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.logo{
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+ 
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: grey;
+}
+
+.nav-item{
+    margin-right: 20px;
+    font-weight:600;
+    color:#555;
+    font-size: 1rem;
+}
+.nav-link:hover{
+    color: blue !important;
+ 
+}
+.navbar-toggler{
+    border: none!important;
+}
+.shantha{
+    color: white;
+}
+.nav-link:hover{
+    color: white !important;
+}
+
+
+/* slider */
+.carousel-inner img{
+    height: 700px;
+    width: 100%;
+ 
+}
+.carousel-inner h1{
+    font-size: 5rem;
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom:initial !important;
+    font-size: 6rem !important;
+    font-weight: bolder;
+    
+}
+
+.carousel-caption button a {
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+}
+.carousel-caption button a:hover{
+    text-decoration: none;
+}
+
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:#555;
+}
+#about .btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content{
+    padding-top: 20px;
+}
+.skills-bar{
+    margin-bottom: 8px;
+    font-weight: 600px;
+}
+
+.progress-bar{
+    border-radius: 1rem;
+  
+}
+.progress{
+    border-radius: 1rem;
+}
+#services{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/ourServices.jpg);
+   background-size: cover;
+   background-position:center;
+   color: #efefef;
+   background-attachment: fixed;
+   padding-top: 50px;
+   padding-bottom:50px ; 
+}
+
+
+#services h1{
+    text-align: center;
+    color: #efefef !important;
+    
+}
+
+.indicators{
+    width: 10px !important ;
+    height: 10px!important ;
+    border-radius: 100%;
+ 
+}
+
+#services h1::after{
+
+    content: '';
+    background-color: #efefef;
+    display: block;
+    height: 3px;
+    width:170px;
+    margin:20px auto 5px;
+
+}
+
+ #services i{
+    font-size: 2.5rem;
+    padding: 20px;
+    margin: 20px auto;
+    height: 80px;
+    width: 80px;
+    border:1px solid #ccc;
+    border-radius: 50%;
+    
+}
+ .services:hover
+ {
+    background-color: #fe7171;
+    cursor: pointer;
+    transition: 2s;
+ }
+
+
+
+ /*************** team *********************/
+
+
+
+ #team h1{
+     text-align: center;
+     color: #555 !important;
+     padding-bottom: 10px;
+     padding-top: 50px;
+ }
+
+ #team h1::after{
+     content: '';
+     background-color: #007bff;
+     display: block;
+     height: 3px;
+     width: 170px;
+     margin: 20px auto;
+ }
+
+ .profile-pic{
+     margin-top: 30px;
+
+ }
+
+  #team i{
+     opacity: 1;
+     display: block;
+     position: relative;
+ }
+
+ #team img{
+    filter: grayscale(100%);
+    width: 300px;
+    height: 400px;
+    object-fit: scale-down;
+    border-radius: 10px;
+
+ }
+ #team img:hover{
+     
+    box-shadow: 0  2px 20px;
+ }
+
+ #team img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+ }
+
+ .profile-pic h2{
+     font-size: 22px;
+     font-weight: bold;
+     margin-top: 15px;
+     color: #007bff !important;
+ }
+ .profile-pic h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+
+ }
+
+ #team .fa{
+     height: 25px;
+     width: 25px;
+     color: #007bff !important;
+     background-color: #fff;
+     border: 1px;
+     padding: 4px;
+     border-radius: 50%;
+ }
+ .img-box ul
+ {
+     padding: 15px 0;
+     position: absolute;
+     z-index: 2;
+     bottom: 0;
+     left: 50%;
+     transform: translate(-50%,-150px);
+     opacity: 0;
+
+ }
+
+ .img-box ul li{
+     padding: 5px;
+     display: inline-block;
+     
+ }
+
+ .img-box:hover ul{
+     opacity: 1;
+ } 
+
+ .img-box ul, .img-box li ,.img-box{
+
+    transition: 1s;
+
+ }
+
+
+ #promo{
+     
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/backgroundbricks.jpg);
+    background-position:top;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    padding: 100px;
+    font-size: 2.5rem;
+
+ }
+
+
+ #price{
+     padding: 40px 0;
+     background-color: #efefef;
+ }
+ .single-price{
+     margin:10px auto;
+     display: inline;
+     float: left;
+     width: 100%;
+     background-color:#fff;
+     transition: 0.5s;
+ }
+
+ .single-price:hover{
+     box-shadow:0 2px 20px #333;
+ }
+ #price h1{
+     text-align: center;
+
+ }
+ #price h1::after{
+    
+    content: '';
+    background-color: #007bff;
+    display: block;
+    height: 3px;
+    width:170px;
+    margin:20px auto 5px;
+ }
+
+ .price-head{
+     background-color: #2196f3;
+     display: inline;
+     float: left;
+     text-align: center;
+     color: #fff;
+     padding: 10px;
+     width: 100%;
+     margin-bottom: 15px;
+ }
+ .price-head h2{
+     color:#fff;
+     font-size: 1.3rem;
+     font-weight: bold;
+     text-transform: uppercase;
+     margin-bottom: 10px;
+ }
+
+ .price-head p{
+     font-size: 25px;
+     color: #ccc;
+     font-weight: bold;
+     line-height: 30px;
+ }
+ #price span{
+     font-size: 15px;
+ }
+
+ .Price-content{
+     padding: 10px 15px;
+     display: inline;
+     width: 100%;
+     font-size: 1rem;
+
+ }
+ .Price-content ul li{
+  list-style: none;
+  border-bottom: 1px solid #efefef;
+  padding :15px 10px;
+ }
+ .Price-content li{
+     border:none;
+
+ }
+ .price-button{
+     text-align: center;
+     padding-bottom: 20px;
+     width: 200px !important;
+ }
+
+ .fa-check-circle{
+     color:green;
+     margin-right: 10px;
+     font-size: 20px;
+ }
+
+ .fa-times-circle{
+    color:red;
+    margin-right: 10px;
+    font-size: 20px;
+}
+#testimonials h1{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#testimonials h1::after{
+    content: '';
+    background-color: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto;
+}
+#testimonials{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#testimonials .row{
+    margin-top: 30px;
+}
+#testimonials .col-md-4{
+    margin:40px auto;
+}
+.profile{
+    padding:70px 10px 10px;
+    background-color: #efefef;
+}
+.profile img{
+    margin: 10px ;
+    top:-60px;
+    width: 30%;
+    position: absolute;
+    left: 52px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+   
+    margin-left:80px;
+}
+.user{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+}
+#testimonials p{
+    font-size: 1rem !important;
+}
+#testimonials span{
+    font-size: 12px;
+    color: #333;
+}
+
+blockquote{
+    font-size: 1rem;
+    line-height: 30px;
+}
+
+blockquote i{
+    color: #0076bf;
+   transform: translateY(-25%);
+   margin-right: 10px;
+   margin-left: 10px;
+}
+.profile:hover{
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+#testimonials h3{
+    color: #0076bf;
+   
+}
+
+
+
+#contact{
+    background-color: #efefef;
+    padding-bottom: 40px;
+    padding-top:40px;
+    color: #777;
+}
+.follow{
+    background-color: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+.contact-info i{
+    color:#0076bf;
+    font-weight:bold;
+    margin: 10px;
+}
+
+#footer{
+    background-color: #333;
+    color: white;
+    padding: 12px;
+}
+#contact h1::after{
+    content: '';
+    background-color: #0076bf;
+    height: 3px;
+    width: 170px;
+    display: block;
+    margin:20px auto;
+
+}
+.carousel-inner:after {
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0, 0, 0, 0.8);
+  }
+
+  
